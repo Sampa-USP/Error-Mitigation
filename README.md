@@ -1,6 +1,6 @@
 # Error Mitigation in Quantum Computing
 
-This repository aims to explore and analyze error mitigation techniques in quantum computing systems, comparing two distinct methods. Error mitigation is a crucial field for improving the accuracy of results obtained from noisy quantum hardware.
+This repository is associated with the article available on arXiv at [arXiv:0000.00000](https://arxiv.org/abs/0000.00000) and aims to explore and analyze error mitigation techniques in quantum computing systems, comparing two distinct methods. Error mitigation is a crucial field for improving the accuracy of results obtained from noisy quantum hardware.
 
 ## Project Description
 
@@ -28,6 +28,7 @@ This technique estimates the expectation values of quantum circuits by executing
 
 ## Tools and Libraries Used
 
+- AWS Braket
 - Qiskit
 - IBM Quantum
 - NumPy
@@ -57,7 +58,7 @@ git clone https://github.com/your-username/error-mitigation-quantum.git
 2. Install dependencies:
 
 ```bash
-pip install qiskit numpy matplotlib
+pip install -r requirements.txt
 ```
 
 3. Navigate to the directory of the desired method and run the notebook:
@@ -78,10 +79,6 @@ jupyter notebook cr_implementation.ipynb
 jupyter notebook comparative_analysis.ipynb
 ```
 
-## Contribution
-
-Feel free to contribute with improvements or suggestions by opening a Pull Request.
-
 ## Citation
 
 If you use this repository in your research or publication, please cite it as:
@@ -93,7 +90,7 @@ If you use this repository in your research or publication, please cite it as:
   year         = {2025},
   publisher    = {GitHub},
   journal      = {GitHub repository},
-  howpublished = {\url{https://github.com/your-username/error-mitigation-quantum}}
+  howpublished = {\url{https://github.com/Sampa-UDP/quantum-error-mitigation}}
 }
 ```
 
