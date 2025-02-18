@@ -52,7 +52,7 @@ This technique estimates the expectation values of quantum circuits by executing
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/error-mitigation-quantum.git
+git clone https://github.com/your-username/quantum-error-mitigation.git
 ```
 
 2. Install dependencies:
