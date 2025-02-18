@@ -1,6 +1,6 @@
 # Error Mitigation in Quantum Computing
 
-This repository aims to explore and analyze error mitigation techniques in quantum computing systems, comparing two distinct methods. Error mitigation is a crucial field for improving the accuracy of results obtained from noisy quantum hardware.
+This repository is associated with the article available on arXiv at [arXiv:0000.00000](https://arxiv.org/abs/0000.00000) and aims to explore and analyze error mitigation techniques in quantum computing systems, comparing two distinct methods. Error mitigation is a crucial field for improving the accuracy of results obtained from noisy quantum hardware.
 
 ## Project Description
 
