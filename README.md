@@ -98,13 +98,3 @@ If you use this repository in your research or publication, please cite it as:
 
 This project is licensed under the [MIT License](LICENSE). The license applies to the code and materials provided in this repository.
 
----
-
-Developed by:
-- Nara Ávila Moraes
-- Alexsandro Kirch
-- Alberto Torres Riera Junior
-- Angelina Mascarini
-- Gabriel Fabian Tortoretto
-- Lucas Alves Leite
-
