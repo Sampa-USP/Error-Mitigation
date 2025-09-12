@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Notebooks Tree — Error-Mitigation — Software</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="./css/paleta_cores.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/nav_bar.css" />
+    <link rel="stylesheet" href="./css/pages.css" />
+    <link rel="stylesheet" href="./css/software.css" />
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="wrap">
+            <div class="brand"><a href="./index.html">Homepage</a></div>
+            <nav class="nav">
+                <a href="./publications.html">Publications</a>
+                <a href="./research.html">Research</a>
+                <a href="./software.html">Software</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-wide">
+        <h2>Software</h2>
+        <div class="layout">
+            <aside class="sidebar">
+                <input id="q" class="search" placeholder="Filter notebooks..." />
+                <ul id="tree" class="tree"></ul>
+            </aside>
+            <section class="viewer">
+                <iframe id="viewer" src=""></iframe>
+            </section>
+        </div>
+    </main>
+
+    <!-- injeta a árvore apenas nesta página -->
+    <script>window.TREE_DATA = {"type": "dir", "name": "Error-Mitigation", "path": "", "children": [{"type": "dir", "name": "AWS_environment", "path": "AWS_environment", "children": [{"type": "dir", "name": "Clifford_Regression", "path": "AWS_environment/Clifford_Regression", "children": [{"type": "file", "name": "Clifford_Regression.ipynb", "path": "AWS_environment/Clifford_Regression/Clifford_Regression.ipynb", "nb_html": "AWS_environment/Clifford_Regression/Clifford_Regression.html"}]}, {"type": "dir", "name": "ZNE", "path": "AWS_environment/ZNE", "children": [{"type": "file", "name": "ZNE.ipynb", "path": "AWS_environment/ZNE/ZNE.ipynb", "nb_html": "AWS_environment/ZNE/ZNE.html"}]}]}, {"type": "dir", "name": "IBM_environment", "path": "IBM_environment", "children": [{"type": "dir", "name": "Clifford_Regression", "path": "IBM_environment/Clifford_Regression", "children": [{"type": "file", "name": "Clifford_Regression.ipynb", "path": "IBM_environment/Clifford_Regression/Clifford_Regression.ipynb", "nb_html": "IBM_environment/Clifford_Regression/Clifford_Regression.html"}]}, {"type": "dir", "name": "ZNE", "path": "IBM_environment/ZNE", "children": [{"type": "file", "name": "ZNE.ipynb", "path": "IBM_environment/ZNE/ZNE.ipynb", "nb_html": "IBM_environment/ZNE/ZNE.html"}]}]}]};</script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
